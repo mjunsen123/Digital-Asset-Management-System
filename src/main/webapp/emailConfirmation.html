@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .center{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -moz-transform: translateX(-50%) translateY(-50%);
+                -webkit-transform: translateX(-50%) translateY(-50%);
+                transform: translateX(-50%) translateY(-50%);
+            } 
+
+            .icon{
+                font-size: 120px;
+                color: green;
+                text-align: center;
+            }
+
+            h2{
+                display:block;
+                font-family: "Lucida Console", "Monospace";
+            }
+
+            p{
+                text-align: center;
+            }
+
+            .btn{
+                width : 500px;
+                height : 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <div class="icon"><i class="fa fa-check-circle"></i></div>
+            <h2>Your email has been verified!</h2><br>
+            <p><button class="btn btn-success" onclick="location.href='login.jsp';">Login to PAVE</button></p>
+        </div>
+    </body>
+</html>
